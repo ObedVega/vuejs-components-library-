@@ -1,8 +1,18 @@
 <template>
-    <button class="lv-button">
-        test boton vuejs
+    <button class="lv-button" @click="count++">
+      Count is: {{ count }}
     </button>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      count: 0
+    };
+  }
+};
+</script>
 
 <style scoped>
 .lv-button{
