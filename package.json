@@ -1,6 +1,6 @@
 {
   "name": "@obedvega/vuejs-components-library",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main":"dist/umd.js",
   "module":"dist/es.js",
   "exports":{
